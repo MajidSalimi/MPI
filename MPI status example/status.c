@@ -2,7 +2,7 @@
 #include <time.h>
 #include <string.h> 
 #include <mpi.h>
-      // -- Use of Parallel MPI_Status status in MPI_Recv   96/06/25
+      // -- Use of Parallel MPI_Status status in MPI_Recv   11/24/2018
       // -- To compile mpicc status.c, TO RUN:	mpirun -n xx a.out
 
  int main(int argc, char *argv[]){
