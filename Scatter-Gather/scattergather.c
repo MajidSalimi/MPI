@@ -3,12 +3,7 @@
 #include <malloc.h>
 #include <time.h>
     //--	A program to generate n number and storing in an array
-    //--	and adding these no.'s in Parallel   96/06/25
-    //--	TO COMPILE	mpicc fname.c
-    //--	TO RUN		mpirun -n pp a.out yy zz
-    //--	pp (integer) No.of Processors
-    //--	yy (integer) No.of input to generate
-    //--	zz (integer) Range of input data to be generated randomly
+    //--	and adding these no.'s in Parallel 
 
     int getsum (int a[], int n, int id){
       int i, sum = 0;
