@@ -29,7 +29,7 @@
 						 "\tSimulating ring network\n"
 						 "\tMaster generates a token and passess it to first processor\n"
 						 "\tevery processors adds 2 to the token and passes it to its right neighbor\n"
-						 "\tand finally master receives token from last processor.  94/07/05"
+						 "\tand finally master receives token from last processor."
 						 "\tTO COMPILE	mpicc fname.c\n"
 						 "\tTO RUN	mpirun -n pp a.out \n");
 			} // end if
