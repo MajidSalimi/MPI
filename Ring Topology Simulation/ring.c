@@ -1,13 +1,10 @@
 #include <stdio.h>
 #include <mpi.h>
 
-	 //-- Simulating ring network
+    //--	Simulating ring network
     //--	Master generates a token and passess it to first processor
-    //-- every processors adds 2 to the token and passes it to its right neighbor
-    //--	and finally master receives token from last processor   96/06/25
-    //--	TO COMPILE	mpicc fname.c
-    //--	TO RUN		mpirun -n pp a.out 
-    //--	pp (integer) No.of Processors
+    //-- 	every processors adds 2 to the token and passes it to its right neighbor
+    //--	and finally master receives token from last processor 
 
 	int main (int argc, char *argv[]) {
 	  int token, procs, myid, err;
