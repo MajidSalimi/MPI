@@ -8,9 +8,9 @@
 #include <stdlib.h>		
     //--	TO COMPILE	mpicc fname.c
     //--	TO RUN		mpirun -n pp a.out m n p k range1 range2
-    //--    m,n,p           are the matrix: A(m*n) , B(n*p)
-    //--    k               is the number of rows that we send to each processor
-    //--    range1,2        are the ranges of generated numbers (double)
+    //--	m,n,p           are the matrix: A(m*n) , B(n*p)
+    //--    	k               is the number of rows that we send to each processor
+    //--    	range1,2        are the ranges of generated numbers (double)
 //---------------------------------------------------------------------
 void genArray(double *arr, int m, int n,int rangei,int rangej) //generate 2D double arrays in form of 1D
 {
