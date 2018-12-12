@@ -1,14 +1,4 @@
-//Majid Salimi Beni
-//Second Home work
-//19/8/96
-//parallel static
-
-//this program runned for 900*900*900 Matrixes with same random double numbers between 1 to 100 that was saved in a file
-//I runned it 5 times for sequential and 5 times for workpool parallel and cyclic parallel mode with 10 processors.(k=10)
-//This is the average execute time records for both modes:
-//sequential Time:  13.318590 seconds
-//parallel Time:  3.121489 seconds
-//parallel wtatic Time:  2.404052 seconds
+//Written by: Majid Salimi Beni
 
 //=======================================================================================================
 #include <stdio.h> 		 
