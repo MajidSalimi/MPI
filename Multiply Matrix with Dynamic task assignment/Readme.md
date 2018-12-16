@@ -1,3 +1,5 @@
+## Multiply Matrix with Dynamic task assignment
+
 An efficient parallel program that accepts four integers m, n, p, k and two float (double) a and b as input. Then generates two float (double) matrices Am×n and Bn×p in the range of a...b (a < b). Compute C = A × B with Dynamic task assignments, where every k (k ≥ 1) rows of C is assigned to each processor, where every k (k ≥ 1) rows of C is assigned to each processor.
 
 np is not divisible by m. and three matrices A, B and C printed in a user friendly form.
