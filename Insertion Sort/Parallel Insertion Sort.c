@@ -5,12 +5,7 @@
 //to execute: mpirun -np p a.out filename k
 //please enter filename without '.txt'
 //======================================================================
-//this program runned for 100000 random double numbers between 1 to 100 that was saved in a file
-//I runned it 5 times for sequential and 5 times for  parallel with 50 processors.(p=50)
-//This is the average execute time records for both modes:
-//sequential Time:  9.529495 seconds
-//parallel Time:  2.179933 seconds
-//----------------------------------------------------------------------
+
 #include <stdio.h> 		 
 #include <mpi.h>  
 #include <malloc.h>
