@@ -1,5 +1,4 @@
-//MajidSalimi
-//2/11/96
+//Written By: Majid Salimi
 //Bitonic sort
 //to compile: -------> mpicc salimi_bitonic.c -lm
 //to run:------------> mpirun -np procs a.out n a b
