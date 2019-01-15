@@ -1,3 +1,6 @@
+
+## Quick Sort on Hypercube
+
 An efficient parallel program to implement quick sort on hypercube using `p` processors:
 Each processor initially generates `n` integers randomly in the range of `a` and `b`
 and sorts them. So over all we want to sort `n×p` integers.
