@@ -4,8 +4,13 @@
 This algorithm is a new method for pivot selecting and partitioning for some algorithms like quick sort and quick select
 
 
-      to compile:      mpicc Qselect.c
-      to run:          mpirun -np procs a.out n range k
+to compile:
+
+      mpicc Qselect.c
+
+to run:
+
+      mpirun -np procs a.out n range k
 
 `procs`:  number of processores
 
